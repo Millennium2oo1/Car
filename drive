@@ -11,12 +11,12 @@ public class Car {
         System.out.println("О, мы уже проехали" + distance);
         return distance;
     }
+}
 
-    public class CarOwner {
-        public void main(String[] args) {
-            Car myCar = new Car();
-            myCar.drive(30);
-            myCar.drive(15);
-        }
+public class CarOwner {
+    public void main(String[] args) {
+        Car myCar = new Car();
+        myCar.drive(30);
+        myCar.drive(15);
     }
 }
