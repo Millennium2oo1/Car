@@ -1,6 +1,6 @@
 package car;
 
-class Car {
+public class Car {
         int distance = 0;
        
         public void start (){
@@ -16,7 +16,7 @@ class Car {
     }
 }
 
-public class CarOwner {
+class CarOwner {
 
     public static void main (String [] args) {
     Car myCar = new Car();
