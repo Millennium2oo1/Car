@@ -1,22 +1,20 @@
 package car;
 
 
-public class Car {
+class Car {
     int distance = 0;
-
-    public static void main(String[] args) {}
 
     public int drive(int howlong) {
         distance = howlong * 60;
         System.out.println("О, мы уже проехали" + distance);
         return distance;
     }
+}
 
-    public class CarOwner {
-        public void main(String[] args) {
-            Car myCar = new Car();
-            myCar.drive(30);
-            myCar.drive(15);
-        }
+public class CarOwner {
+    public void main(String[] args) {
+        Car myCar = new Car();
+        myCar.drive(30);
+        myCar.drive(15);
     }
 }
