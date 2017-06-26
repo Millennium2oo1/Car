@@ -1,10 +1,8 @@
 package car;
 
 
-public class Car {
+class Car {
     int distance = 0;
-
-    public static void main(String[] args) {}
 
     public int drive(int howlong) {
         distance = howlong * 60;
